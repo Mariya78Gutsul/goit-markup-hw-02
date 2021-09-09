@@ -1,3 +1,10 @@
-body {
-  background: #ffffff;
+.page {
+  color: #212121;
+  background: #e5e5e5;
 }
+/* цвет основного текста   color: #212121; */
+/* вторичный цвет текста   color:#757575 ; */
+/* белый цвет текста   color: #ffffff; */
+/* акцент backround: #2196F3 */
+/* синий цвет текста color: #2196F3 */
+/* вторичный цвет фона    background: #F5F4FA; */
