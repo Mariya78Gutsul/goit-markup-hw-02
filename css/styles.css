@@ -1,19 +1,33 @@
-.page {
-  background: #e5e5e5;
-  color: #757575;
-}
 /* цвет основного текста color: #757575; */
 /* вторичный цвет текста  color: #212121; */
-/* акцент синий   color: #2196F3$ */
+/* акцент синий   color: #2196F3; */
 /* белый color: #FFFFFF  */
-/* основной фон  background: #e5e5e5; */
+/* основной фон  background: # ffffff; */
 /* второстепенный фон  background: #F5F4FA*/
+:root {
+  --primary-text-colorcolor: #757575;
+  --titel-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+}
+.page {
+  background: #ffffff;
+  color: var(--primary-text-colorcolor);
+}
+
 ul {
   list-style: none;
 }
 .logo {
-  color: #212121;
+  color: var(--accent-text-color);
 }
-.site-nav .link:hover .site-nav .link:focus {
-  color: #757575;
+.logo .accent {
+  color: var(--titel-text-color);
+}
+.section-title {
+  color: var(--titel-text-color);
+}
+.button {
+  background: var(--accent-text-color);
+  color: var(--white-text-color);
 }
