@@ -8,3 +8,11 @@
 /* акцент backround: #2196F3 */
 /* синий цвет текста color: #2196F3 */
 /* вторичный цвет фона    background: #F5F4FA; */
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: #2196f3;
+}
