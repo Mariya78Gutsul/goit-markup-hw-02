@@ -5,14 +5,16 @@
 /* основной фон  background: # ffffff; */
 /* второстепенный фон  background: #F5F4FA*/
 :root {
-  --primary-text-colorcolor: #757575;
+  --primary-text-color: #757575;
   --titel-text-color: #212121;
   --accent-text-color: #2196f3;
   --white-text-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --titel-background-color: #f5f4fa;
 }
 .page {
   background: #ffffff;
-  color: var(--primary-text-colorcolor);
+  color: var(--primary-text-color);
 }
 
 ul {
@@ -27,7 +29,12 @@ ul {
 .section-title {
   color: var(--titel-text-color);
 }
+.button-titel {
+  background: var(--titel-background-color);
+  color: var(--titel-text-color);
+}
 .button {
   background: var(--accent-text-color);
   color: var(--white-text-color);
 }
+/* Страница  portfolio */
