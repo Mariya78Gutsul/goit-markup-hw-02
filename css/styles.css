@@ -13,7 +13,7 @@
   --titel-background-color: #f5f4fa;
 }
 .page {
-  background: #ffffff;
+  background: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0, 03em;
@@ -24,20 +24,68 @@ ul {
 }
 .logo {
   color: var(--accent-text-color);
-  font-family: Raleway, cursive;
+  font-family: Raleway, sans-seri;
+  font-size: 28px;
+  line-height: 1.19;
 }
 .logo .accent {
   color: var(--titel-text-color);
 }
+.active {
+  color: var(--accent-text-color);
+}
+.hero-title {
+  color: var(--white-text-color);
+  background: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .section-title {
   color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.cite-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.cite-nav .link:hover,
+.cite-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.feature-list {
+  color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.auth-nav {
 }
 .button-titel {
   background: var(--titel-background-color);
   color: var(--titel-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .button {
   background: var(--accent-text-color);
   color: var(--white-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
-/* Страница  portfolio */
