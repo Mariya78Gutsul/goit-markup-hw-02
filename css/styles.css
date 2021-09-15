@@ -34,6 +34,11 @@ ul {
 .active {
   color: var(--accent-text-color);
 }
+.active:hover,
+.active:focus {
+  color: teal;
+}
+
 .hero-title {
   color: var(--white-text-color);
   background: #2f303a;
@@ -73,19 +78,35 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 }
-.auth-nav {
-}
-.button-titel {
-  background: var(--titel-background-color);
-  color: var(--titel-text-color);
+.auth-nav a {
+  color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+  font-size: 14px;
+  line-height: 1.14
+  letter-spacing: 0.02em;
+}
+.auch-nav-writing :hover,
+.auch-nav-writing :focus {
+  color: var(--accent-text-color);
 }
 .button {
-  background: var(--accent-text-color);
   color: var(--white-text-color);
+  background: var(--accent-text-color);
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em; 
+}
+.button-filter:hover,
+.button-filter:focus{
+  color: var(--white-text-color);
+  background: var(--accent-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  
+
 }
