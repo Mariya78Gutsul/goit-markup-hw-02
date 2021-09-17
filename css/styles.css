@@ -79,6 +79,14 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
 }
+.feature-list-portfolio {
+  color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
 .feature-list-name {
   color: var(--titel-text-color);
   font-weight: 500;
@@ -94,6 +102,10 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+.text-name-portfolio {
+  font-size: 16px;
+  line-height: 1.88;
 }
 .auth-nav a {
   color: var(--primary-text-color);
@@ -129,6 +141,10 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 }
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-text-color);
+}
 .button {
   color: var(--white-text-color);
   background: var(--accent-text-color);
@@ -138,6 +154,13 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+.button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-filter:hover,
 .button-filter:focus {
